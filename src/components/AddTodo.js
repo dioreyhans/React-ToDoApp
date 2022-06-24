@@ -36,7 +36,7 @@ export const AddTodo = () => {
                     <Input type="text" value={activity} onChange={onChange}></Input>
                     <div className="d-flex justify-content-end mt-3">
                     <Button type="submit" className="btn btn-info mx-2" style={{ color:"white" }}>Submit</Button>
-                    <Link to="/React-ToDoApp" className="btn btn-danger">Cancel</Link>
+                    <Link to="/" className="btn btn-danger">Cancel</Link>
                     </div>
                 </FormGroup>
             </Form>
