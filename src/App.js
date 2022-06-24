@@ -13,7 +13,7 @@ function App() {
       <GlobalProvider>
         <Router>
           <Routes>
-            <Route exact path="/" element={<Home/>} />
+            <Route exact path="https://dioreyhans.github.io/React-ToDoApp/" element={<Home/>} />
             <Route path="/add" element={<AddTodo/>} />
             <Route path="/edit/:id" element={<EditTodo/>} />
           </Routes>
