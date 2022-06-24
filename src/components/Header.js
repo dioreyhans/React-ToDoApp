@@ -9,7 +9,7 @@ export const Header = () => {
             <Container className="d-flex justify-content-center mt-5">
                 <Nav>
                     <NavItem>
-                        <Link className="btn btn-primary" to="/React-ToDoApp/add">Create To Do List</Link>
+                        <Link className="btn btn-primary" to="/add">Create To Do List</Link>
                     </NavItem>
                 </Nav>
             </Container>
