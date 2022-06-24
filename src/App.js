@@ -14,8 +14,8 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/React-ToDoApp" element={<Home/>} />
-            <Route path="/add" element={<AddTodo/>} />
-            <Route path="/edit/:id" element={<EditTodo/>} />
+            <Route path="/React-ToDoApp/add" element={<AddTodo/>} />
+            <Route path="/React-ToDoApp/edit/:id" element={<EditTodo/>} />
           </Routes>
         </Router>
       </GlobalProvider>
