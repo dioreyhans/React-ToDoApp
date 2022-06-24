@@ -11,13 +11,13 @@ function App() {
   return (
     <div className="App">
       <GlobalProvider>
-        <Router>
+        <BrowserRouter>
           <Routes>
             <Route exact path="https://dioreyhans.github.io/React-ToDoApp/" element={<Home/>} />
             <Route path="https://dioreyhans.github.io/React-ToDoApp/add" element={<AddTodo/>} />
             <Route path="https://dioreyhans.github.io/React-ToDoApp/edit/:id" element={<EditTodo/>} />
           </Routes>
-        </Router>
+        </BrowserRouter>
       </GlobalProvider>
       
     </div>
